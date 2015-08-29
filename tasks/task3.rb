@@ -1,3 +1,4 @@
+# See task description in README.md
 class Task3
   def self.solution(array)
     (0..array.size - 3).each_with_object(array.sort) do |i, a|
