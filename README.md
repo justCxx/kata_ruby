@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/justCxx/ruby_interviews.svg)](https://travis-ci.org/justCxx/ruby_interviews)
+[![Build Status](https://travis-ci.org/justCxx/kata_ruby.svg?branch=master)](https://travis-ci.org/justCxx/kata_ruby)
 
-Тестовые задачи
-===============
+Упражнения
+==========
 
 1. В строке **S** из **N** символов правильно расставлены скобки, если:
   - **S** строка пустая;
@@ -27,7 +27,7 @@
 
   Сложность алгоритма должна быть не более чем `O(N)` для худшего случая;
 
-  [source](../master/tasks/task1.rb) | [test](../master/spec/task1_spec.rb)
+  [source](/tasks/task1.rb) | [test](/spec/task1_spec.rb)
 
 2. Строка называется палиндромом если она имеет абсолютно одинаковую
   последовательность символов с права на лево и слева на право, для примера:
@@ -62,7 +62,7 @@
 
   Сложность алгоритма должна быть не более чем `O(N)` для худшего случая;
 
-  [source](../master/tasks/task2.rb) | [test](../master/spec/task2_spec.rb)
+  [source](/tasks/task2.rb) | [test](/spec/task2_spec.rb)
 
 3. Массив **A** состоит из **N** целых чисел. Тройка чисел `(P, Q, R)`
   называется треугольником если `0 ≤ P < Q < R < N` и:
@@ -113,4 +113,4 @@
 
   Элементы массива можно модифицировать.
 
-  [source](../master/tasks/task3.rb) | [test](../master/spec/task3_spec.rb)
+  [source](/tasks/task3.rb) | [test](/spec/task3_spec.rb)
